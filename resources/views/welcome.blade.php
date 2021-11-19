@@ -22,11 +22,7 @@
 
     .bg {
     /* The image used */
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-    ),url("https://previews.123rf.com/images/leksustuss/leksustuss1912/leksustuss191200034/134819842-golden-slot-machine-wins-the-jackpot-777-on-the-background-of-an-explosion-of-coins-vector-illustrat.jpg");
-
+    background: #000;
     /* Full height */
     height: 100%;
 
