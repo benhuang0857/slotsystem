@@ -38,7 +38,7 @@
     }
 </style>
     </head>
-    <body class="">
+    <body class="bg">
 
         <div class="album py-5 bg-light">
             <div class="container">
