@@ -75,11 +75,11 @@ class MachineController extends AdminController
         $form->text('name', '機台名稱');
         $form->text('stream', __('Stream'));
         $form->image('image', '機台照片');
-        $form->text('status', '機台狀態')->options([
+        $form->select('status', '機台狀態')->options([
             'off' => '未啟用',
             'on' => '啟用',
         ]);
-        $form->text('occupied', '是否占用')->options([
+        $form->select('occupied', '是否占用')->options([
             'true' => '使用中',
             'false' => '未使用',
         ]);
