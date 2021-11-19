@@ -16,10 +16,6 @@
         </style>
 
 <style>
-    body, html {
-    height: 100%;
-    }
-
     .bg {
     /* The image used */
     background-image: linear-gradient(
