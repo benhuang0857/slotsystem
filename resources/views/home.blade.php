@@ -2,9 +2,8 @@
 
 @section('content')
 
-
 <style>
-    body, html {
+    .container {
     height: 100%;
     }
 
