@@ -36,7 +36,7 @@
     </head>
     <body>
 
-        <div class="album py-5">
+        <div class="album py-5" style="background: black;">
             <div class="container">
         
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-6 g-6">
