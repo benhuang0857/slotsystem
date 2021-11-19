@@ -22,11 +22,7 @@
 
     .bg {
     /* The image used */
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-    ),url("https://previews.123rf.com/images/leksustuss/leksustuss1912/leksustuss191200034/134819842-golden-slot-machine-wins-the-jackpot-777-on-the-background-of-an-explosion-of-coins-vector-illustrat.jpg");
-
+    background-color: black;
     /* Full height */
     height: 100%;
 
@@ -40,8 +36,8 @@
     </head>
     <body>
 
-        <div class="album py-5 bg">
-            <div class="container bg">
+        <div class="album py-5">
+            <div class="container">
         
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-6 g-6">
                     @foreach ($Machines as $machine)
