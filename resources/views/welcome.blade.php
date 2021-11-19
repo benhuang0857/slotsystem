@@ -26,14 +26,16 @@
                             <div class="card shadow-sm">
 
                                 <div style= "position:relative ">
-                                    <a href="{{$machine->ip}}">
+                                    
                                     @if ($machine->status == 'off')
                                         <img class="card-img-top occupied" src="{{asset('uploads/'.$machine->image)}}" alt="Card image cap">
                                         <div style= "font-size:30px; position:absolute; left:30%; top:50%; color:#fff; font-weight:bold ">使用中</div> 
                                     @else
+                                    <a href="{{$machine->ip}}">
                                         <img class="card-img-top" src="{{asset('uploads/'.$machine->image)}}" alt="Card image cap">
-                                    @endif
                                     </a>
+                                    @endif
+                                    
                                 </div>
                                 
                                 <div class="card-body">
