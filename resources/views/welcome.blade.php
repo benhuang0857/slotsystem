@@ -41,7 +41,7 @@
     <body>
 
         <div class="album py-5 bg">
-            <div class="container">
+            <div class="container bg">
         
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-6 g-6">
                     @foreach ($Machines as $machine)
