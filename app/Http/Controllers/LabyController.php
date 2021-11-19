@@ -7,6 +7,10 @@ use App\Machine;
 
 class LabyController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index()
     {
         $Machines = Machine::all();
