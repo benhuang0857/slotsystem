@@ -15,7 +15,7 @@ class MachineController extends AdminController
      *
      * @var string
      */
-    protected $title = 'Machine';
+    protected $title = '機台管理';
 
     /**
      * Make a grid builder.
