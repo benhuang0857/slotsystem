@@ -16,7 +16,7 @@ class MemberController extends AdminController
      *
      * @var string
      */
-    protected $title = 'Member';
+    protected $title = '會員管理';
 
     /**
      * Make a grid builder.
@@ -29,12 +29,12 @@ class MemberController extends AdminController
 
         $grid->column('id', __('Id'));
         //$grid->column('wsid', __('Wsid'));
-        $grid->column('name', __('Name'));
-        $grid->column('phone', __('Phone'));
+        $grid->column('name', __('姓名'));
+        $grid->column('phone', __('電話'));
         //$grid->column('password', __('Password'));
-        $grid->column('status', __('Status'));
+        $grid->column('status', __('帳號狀態'));
         //$grid->column('remember_token', __('Remember token'));
-        $grid->column('created_at', __('Created at'));
+        $grid->column('created_at', __('建立時間'));
         //$grid->column('updated_at', __('Updated at'));
 
         return $grid;
@@ -52,10 +52,10 @@ class MemberController extends AdminController
 
         $show->field('id', __('Id'));
         $show->field('wsid', __('Wsid'));
-        $show->field('name', __('Name'));
-        $show->field('phone', __('Phone'));
-        $show->field('password', __('Password'));
-        $show->field('status', __('Status'));
+        $show->field('name', __('姓名'));
+        $show->field('phone', __('電話'));
+        $show->field('password', __('密碼'));
+        $show->field('status', __('帳號狀態'));
         $show->field('remember_token', __('Remember token'));
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));

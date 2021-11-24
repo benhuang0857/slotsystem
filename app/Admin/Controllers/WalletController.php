@@ -15,7 +15,7 @@ class WalletController extends AdminController
      *
      * @var string
      */
-    protected $title = 'Wallet';
+    protected $title = '錢包管理';
 
     /**
      * Make a grid builder.
@@ -28,10 +28,10 @@ class WalletController extends AdminController
 
         $grid->column('id', __('Id'));
         $grid->column('wsid', __('Wsid'));
-        $grid->column('balance', __('Balance'));
-        $grid->column('status', __('Status'));
-        $grid->column('created_at', __('Created at'));
-        $grid->column('updated_at', __('Updated at'));
+        $grid->column('balance', __('餘額'));
+        $grid->column('status', __('狀態'));
+        $grid->column('created_at', __('建立時間'));
+        $grid->column('updated_at', __('更新時間'));
 
         return $grid;
     }
@@ -66,8 +66,8 @@ class WalletController extends AdminController
         $form = new Form(new Wallet());
 
         $form->text('wsid', __('Wsid'));
-        $form->number('balance', __('Balance'));
-        $form->text('status', __('Status'))->default('on');
+        $form->number('balance', __('餘額'));
+        $form->text('status', __('狀態'))->default('on');
 
         return $form;
     }

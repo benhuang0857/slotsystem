@@ -13,7 +13,6 @@ class HomeController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->title('天應後台')
-            ->description('Description...');
+            ->title('天鷹後台');
     }
 }
